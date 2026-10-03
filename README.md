@@ -56,7 +56,7 @@ The data is **not included** in this repository (see the license on the Kaggle p
 ## Key findings
 All numbers are computed in the notebook (section 6).
 
-- **Growth:** orders in Jan–Aug 2018 were **137%** higher than in Jan–Aug 2017 (revenue **+138%**), but monthly orders have been flat at roughly 6–7k since January 2018. The busiest day was **2017-11-24** (Black Friday) with **1,166** orders vs. a daily average of 160.
+- **Growth:** orders in Jan–Aug 2018 were **137%** higher than in Jan–Aug 2017 (revenue **+138%**), but monthly orders have been flat at roughly 6–7k since January 2018. The busiest day was **2017-11-24** with **1,166** orders vs. a daily average of 160.
 - **Concentration:** the top 5 categories generate **40%** of revenue and the top 3 states (SP, RJ, MG) **63%**; São Paulo alone accounts for **38%**.
 - **Payments:** **77%** of orders are paid by credit card and **52%** in 2+ instalments.
 - **Delivery:** the median delivery takes **10.2** days vs **23.2** days promised; **6.8%** of orders arrive late (by a median of 7 days).
@@ -67,7 +67,7 @@ All numbers are computed in the notebook (section 6).
 ## Charts
 
 ![Monthly orders and revenue](images/03_monthly_orders_revenue.png)
-*Orders peaked in November 2017 (Black Friday) and have been flat since early 2018.*
+*Orders peaked in November 2017 and have been flat since early 2018.*
 
 ![Delivery performance](images/09_delivery_performance.png)
 *Orders arrive in 10 days (median) against 23 days promised, but the slowest state (RR) waits more than three times longer than SP.*
@@ -81,7 +81,7 @@ All numbers are computed in the notebook (section 6).
 ## Recommendations
 1. **Attack the late tail, not the median.** Delivery is already fast on average, but the 6.8% of orders that arrive late get a 1-star review 54% of the time. Flag orders at risk of missing their date, warn customers proactively and prioritise the slowest states (RR 29 days, BA 19 days).
 2. **Invest in retention.** Only 3.0% of customers order again, so growth depends almost entirely on new customers. A follow-up e-mail, voucher or loyalty programme after the first delivered order is a simple place to start.
-3. **Prepare for peak days.** Black Friday 2017 brought 1,166 orders in a single day. Plan stock, seller response times and carrier capacity ahead of November.
+3. **Prepare for peak days.** 2017 brought 1,166 orders in a single day. Plan stock, seller response times and carrier capacity ahead of November.
 4. **Reduce the dependence on a few states, but fix logistics first.** SP, RJ and MG generate 63% of revenue. The other states are the growth opportunity, but they also wait longer for their orders, so marketing there should go together with logistics improvements. Category concentration is a smaller risk (the top category is 9.3% of revenue).
 
 ## How to run
